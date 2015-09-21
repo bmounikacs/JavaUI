@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>comcast</title>
+		<meta name="description" content="">
+		<meta name="author" content="Dinesh">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link href="css/master.css" rel="stylesheet" type="text/css" media="all" />
+	</head>
+
+	<body>
+	<div class="container">
+			<div class="row">
+				<div class="column1">
+					<div class="panel payments">
+						<p>Balance Due by Jan 10, 2015</p>
+						<div class="row">
+							<div class="due">
+								<h2>$ 29.99</h2>
+								<a href="#">View Bill details</a>
+							</div>
+							
+							<div class="paynow">
+								<button type="button" class="btn">Paynow</button>
+								<a href="#">Setup automatic payments</a>
+							</div>
+						</div>
+						<div class="row recent-activity">
+                            <h3>Recent Activity</h3>
+                            <ul>
+                                <li>
+                                    <span class="date">11/20/2015</span>
+                                    <strong>Thank you for your recent payment</strong>
+                                </li>
+                                <li>
+                                    <span class="date">11/20/2015</span>
+                                    <strong>Thank you for your recent payment</strong>
+                                </li>
+                                <li>
+                                    <span class="date">11/20/2015</span>
+                                    <strong>Thank you for your recent payment</strong>
+                                </li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+				<div class="column2">
+                    <div class="panel">
+						<div class="header">
+                            <div class="connected"><span class="icon icon-connected"></span>Connected <a href="#" class="view">View</a> </div>
+
+
+                        </div>
+                        <div class="row panel-content">
+                            <h1>XIFINITY <sup>&reg;</sup> Internet</h1>
+                           <a href="#">Upgrade</a> | <a href="#">Get Help</a>
+                          <div class="options">
+                                <ul>
+                                    <li>
+                                        <a href="www.gmail.com">Check Your email</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Add new email</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Download antivirus</a>
+                                    </li>
+                                </ul>
+                          </div>
+
+                        </div>
+					</div>
+                </div>
+				<br clear="both" />
+			</div>
+			<div class="row">
+				<div align="center" class="column3">
+						<span class="icon icon-bgd icon-one"></span>
+						<a href="#">Setup automatic payments</a>	
+				</div>
+				<div align="center" class="column4">
+						<span class="icon icon-bgd"></span>
+						<a href="#">Manage Ecobill</a>
+				</div>
+				<div align="center" class="column5">
+						<span class="icon icon-bgd"></span>
+						<a href="#"> Check your email</a>
+				</div>
+				<div align="center" class="column6">
+						<span class="icon icon-bgd"></span>
+						<a href="#">Move or transfer service</a>
+				</div>
+				<div align="center" class="column7">
+						<span class="icon icon-bgd"></span>
+						<a href="#">Get text alerts</a>
+				</div>
+				<div align="center" class="column8">
+						<span class="icon icon-bgd"></span>
+						<a href="#">Add or Upgrade Service</a>
+				</div>
+				<div align="center" class="column9">
+						<span class="icon icon-bgd"></span>
+						<a href="#">Manage users and settings</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+/*This is CSS file */
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+	font:14px/16px Arial,Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+    color:#333;
+}
+h1{
+    font-weight: normal;
+    margin:15px
+
+}
+h2{
+	font-size:30px;
+	margin:10px;
+}
+a{
+	color:#1471da;
+	text-decoration:none;
+}
+ul {
+    list-style: none;
+
+}
+.container{
+	width:980px;
+	margin:0 auto;
+	
+}
+.row{
+	width: 100%;
+    box-sizing: border-box;
+
+}
+.column1{
+	width:430px;
+	float:left;
+	margin-right:25px;
+
+}
+.column2{
+	width:490px;
+	float:left;
+}
+.column3{
+	width: 140px;
+	float:left;
+}
+.column4{
+	width: 140px;
+	float: left;
+}
+.column5{
+	width: 140px;
+	float:left;
+}
+.column6{
+	width:140px;
+	float:left;
+}
+.column7{
+	width: 140px;
+	float:left;
+}
+.column8{
+	width:140px;
+	float: left;
+}
+.column9{
+	width: 140px;
+	float:left;
+}
+.btn{
+	background: #fedc2a; /* Old browsers */
+
+border:1px solid #000;
+background: -webkit-linear-gradient(top,  #fedc2a 0%,#fedb22 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fedc2a 0%,#fedb22 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fedc2a 0%,#fedb22 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fedc2a 0%,#fedb22 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fedc2a', endColorstr='#fedb22',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 1px 6px #f0f0f0;
+box-shadow: 0px 1px 6px #f0f0f0;
+width:200px;
+padding:10px 14px;
+border-radius:5px;
+font-weight: bold;
+
+}
+
+.panel{
+	-webkit-box-shadow: 0px 1px 6px #f0f0f0;
+box-shadow: 0px 1px 6px #f0f0f0;
+border:1px solid #cacaca;
+border-radius:5px;
+min-height:300px;
+width:100%;
+}
+.panel .panel-content{
+    padding:10px 15px 10px 15px;
+}
+
+.payments p{
+	text-align:center;
+}
+.payments .due{
+	width:50%;
+	float:left;
+	text-align: center;
+}
+.recent-activity{
+	border-top:1px solid #cacaca;
+	margin-top:40px;
+    background: #f5f5f5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f5f5f5 0%, #ffffff 30%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(30%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f5f5f5 0%,#ffffff 30%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f5f5f5 0%,#ffffff 30%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f5f5f5 0%,#ffffff 30%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f5f5f5 0%,#ffffff 30%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.recent-activity h3{
+	padding-left: 20px;
+    padding-top:10px;
+	font-size:16px;
+    padding-bottom:10px;
+    border-bottom:1px dashed #cacaca;
+}
+.recent-activity .date{
+    color:#666;
+    font-style: italic;
+    display: block;
+    font-size:80%;
+}
+.recent-activity ul li{
+    padding:10px;
+    border-bottom:1px solid #cacaca;
+    color:#1471da;
+}
+
+.panel .header{
+    border-bottom:1px solid #cacaca;
+    padding:15px;
+    background: #f5f5f5;
+    color:#B3CF2A;
+}
+.panel .header .connected{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.panel .header .view{
+    float:right;
+    font-weight: normal;
+    text-transform: capitalize;
+
+}
+.icon{
+    background: url("../img/sprite.png") 0 0 no-repeat;
+    display :inline-block;
+    margin:-4px 5px 0 0;
+    vertical-align: text-top;
+}
+.icon-connected{
+    background-position: -100px -250px;;
+    width: 22px;
+    height: 23px;
+}
+.icon-bgd{
+	margin-top: 50px;
+	background-position:-49px 0;
+	width: 109px;
+	height: 108px;
+.icon-one{
+	background-position: 0 -350px;
+	width: 48px;
+	height: 37px;
+}
+
+}
+.options{
+    margin-top:50px;
+}
+.options ul li{
+    border-top:1px dashed #cacaca;
+}
+.options ul li a{
+    font-weight: bold;
+    padding:8px 0 8px 0;
+    display: block;
+}
